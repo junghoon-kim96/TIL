@@ -1,3 +1,5 @@
+@@git
+
 git - 버전관리를 위한 도구, 협업 관리를 위한 도구
 github - git 프로젝트를 원격으로 올릴 수 있는 저장소 기능 제공 및 커뮤니티 기능 제공
 
@@ -8,3 +10,21 @@ commit - 작업내용 단위, 현재 프로젝트 상태를 저장하는 것
 
 git 초기화 - '앞으로 git이 관리할꺼야~' git이 관리하는 프로젝트로 만들기
 add(or staging) - 파일을 선택해서 commit에 반영(작업내용을 정확히 어떻게 나눠서 커밋 할 수 있는 장점)
+
+
+
+@@repo
+
+repo(repository) - git으로 관리되는 프로젝트
+로컬 repo - 내컴퓨터에 저장되 있는 것
+원격 repo - github처럼 다른 곳에서 접속할 수 있는 공간에 저장 되있는것
+
+트래킹 - 원격repo,로컬repo를 연결한다
+
+*순서 - pull > 로컬 repo commit > push
+(conflict.충돌 - 충돌방지 하기 위해)
+
+충돌(conflict) - 로컬repo와 원격repo를 둘 다 commit 했을때 발생
+(알람 같은것, 심각한것 아님)
+
+clone - 원격 repo를 내컴퓨터에 가져오기(*내컴퓨터는 로컬repo가 없는 상태)
